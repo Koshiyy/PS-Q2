@@ -9,6 +9,7 @@ if (cap.isOpened() == False):
 while (cap.isOpened()):
     ret, frame = cap.read()
     if ret == True:
+
         cv.imshow('Frame', frame)
 
         if cv.waitKey(25) & 0xFF == ord('q'):
