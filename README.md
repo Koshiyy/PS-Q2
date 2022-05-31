@@ -1,0 +1,1 @@
+# Programa que realiza a contagem de cartas vermelhas e cartas pretas que aparecem na tela
